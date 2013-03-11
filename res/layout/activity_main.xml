@@ -4,11 +4,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ListView
+        android:id="@+id/activity_main_lst_bluetooth_devices"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:layout_marginRight="108dp" >
+    </ListView>
 
 </RelativeLayout>
